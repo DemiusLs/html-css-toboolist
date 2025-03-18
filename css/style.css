@@ -32,12 +32,13 @@ img {
 
 .header {
     padding: 10px 15px;
+    background-color: rgb(255, 255, 255);
 
 }
 
 /* MAIN */
 .main {
-    background-color: bisque;
+    background-color: rgb(192, 192, 191);
     padding-top: 40px;
 
 }
@@ -58,14 +59,14 @@ img {
 }
 
 .white-btn {
-    background-color: rgb(182, 126, 126);
-    border: 3px, solid, beige;
-    color: beige;
+    background-color: rgb(255, 255, 255);
+    border: 3px, solid, rgb(128, 128, 128);
+    color: rgb(128, 128, 128);
 }
 
 
 .bottons-cont {
-    background-color: rgb(182, 126, 126);
+    background-color: rgb(255, 255, 255);
     padding: 20px 50px 10px;
 
     margin-bottom: 2px;
@@ -75,7 +76,7 @@ img {
 
 /* liste */
 .list-cont {
-    background-color: rgb(182, 126, 126);
+    background-color: rgb(255, 255, 255);
     padding: 20px 50px 10px;
 
 
@@ -106,9 +107,13 @@ img {
     font-weight: 500;
 }
 
+.triangle {
+    font-size: 15px;
+}
+
 .circle {
     display: inline-block;
-    background-color: rgb(182, 126, 126);
+    background-color: rgb(255, 255, 255);
     height: 20px;
     width: 20px;
     text-align: center;
@@ -117,12 +122,7 @@ img {
     font-size: 15px;
     border: 1px, solid, green;
     color: green;
-
-
-
-
 }
-
 
 .red-circle {
     border-color: red;
@@ -131,21 +131,43 @@ img {
 
 .note {
     font-style: normal;
-    background-color: rgb(23, 161, 161);
     color: rgb(255, 255, 255);
     padding: 5px 10px;
     border-radius: 20px;
     font-size: 12px;
 }
 
-.triangle {
-    font-size: 15px;
+/* colori sfondi  */
+.blue-bg {
+    background-color: rgb(35, 139, 180);
+
 }
+
+.violet-bg {
+    background-color: rgb(138, 43, 226);
+}
+
+.green-bg {
+    background-color: rgb(7, 54, 7)
+}
+
+.orange-bg {
+    background-color: rgb(216, 145, 14);
+}
+
+.pink-bg {
+    background-color: rgb(202, 34, 202);
+}
+
+.olive-bg {
+    background-color: rgb(129, 129, 2);
+}
+
 
 
 /* fine liste */
 
 .footer {
     height: 10px;
-    background-color: bisque;
+    background-color: rgb(192, 192, 191);
 }
