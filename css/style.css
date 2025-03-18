@@ -14,6 +14,7 @@ img {
 .container {
     width: 80%;
     margin: 0 auto;
+
 }
 
 /* HEADER */
@@ -41,6 +42,7 @@ img {
 
 }
 
+/* Bottoni  */
 .buttons {
     padding: 5px 10px;
     border-radius: 5px;
@@ -57,13 +59,93 @@ img {
 
 .white-btn {
     background-color: rgb(182, 126, 126);
-    border-color: beige;
+    border: 3px, solid, beige;
     color: beige;
 }
 
 
-.bottons-sc {
+.bottons-cont {
     background-color: rgb(182, 126, 126);
     padding: 20px 50px 10px;
-    border-radius: 5px;
+
+    margin-bottom: 2px;
+}
+
+/* fine bottoni */
+
+/* liste */
+.list-cont {
+    background-color: rgb(182, 126, 126);
+    padding: 20px 50px 10px;
+
+
+}
+
+.lista {
+    list-style: none;
+
+
+}
+
+.lista h2 {
+
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.lista li {
+
+    list-style: none;
+    margin-bottom: 20px;
+
+
+}
+
+.lista ul {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.circle {
+    display: inline-block;
+    background-color: rgb(182, 126, 126);
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 20px;
+    font-size: 15px;
+    border: 1px, solid, green;
+    color: green;
+
+
+
+
+}
+
+
+.red-circle {
+    border-color: red;
+    color: red
+}
+
+.note {
+    font-style: normal;
+    background-color: rgb(23, 161, 161);
+    color: rgb(255, 255, 255);
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+.triangle {
+    font-size: 15px;
+}
+
+
+/* fine liste */
+
+.footer {
+    height: 10px;
+    background-color: bisque;
 }
