@@ -14,9 +14,6 @@ img {
 .container {
     width: 80%;
     margin: 0 auto;
-    background-color: rgb(182, 126, 126);
-    padding: 20px;
-    border-radius: 5px;
 }
 
 /* HEADER */
@@ -48,9 +45,25 @@ img {
     padding: 5px 10px;
     border-radius: 5px;
     font-weight: 600;
+    height: 30px;
+    margin-right: 2px;
 }
 
-.blue-bg {
+.blue-btn {
     background-color: rgb(23, 161, 161);
     color: rgb(255, 255, 255);
+    border: 0;
+}
+
+.white-btn {
+    background-color: rgb(182, 126, 126);
+    border-color: beige;
+    color: beige;
+}
+
+
+.bottons-sc {
+    background-color: rgb(182, 126, 126);
+    padding: 20px 50px 10px;
+    border-radius: 5px;
 }
