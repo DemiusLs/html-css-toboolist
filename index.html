@@ -11,8 +11,8 @@
 <body>
     <!-- header -->
     <header class="header">
-        <img src="./img/Logo.png" alt="Logo Toboolist">
-        <strong>Toboolist</strong>
+        <img src="./img/Logo.png" alt="Logo Toboolist" class="align-middle">
+        <strong class="align-middle">Toboolist</strong>
 
     </header>
     <!-- fine header -->
@@ -22,25 +22,25 @@
 
         <!-- buttons -->
         <div class="container">
-            <section class="bottons-cont">
+            <nav>
 
-                <button class="buttons blue-btn">Add Task</button>
-                <button class="buttons white-btn">Add section</button>
-            </section>
+                <button class="btn blue-btn">Add Task</button>
+                <button class="btn white-btn">Add section</button>
 
 
-        </div>
-        <!-- fine buttons -->
 
-        <!-- lista annidata -->
-        <div class="container">
-            <section class=" list-cont">
-                <ul class="lista">
+            </nav>
+            <!-- fine buttons -->
+
+            <!-- lista annidata -->
+            <div class="content">
+
+                <ul class="primary-list">
                     <li>
 
                         <!-- Primo membro lista  New task-->
-                        <h2><span class="triangle">&#9660;</span>New Task</h2>
-                        <ul>
+                        <h2><span>&blacktriangledown;</span>New Task</h2>
+                        <ul class="inner-list">
                             <li>
                                 <span class="circle">&check;</span>
                                 Quarterly Newsletter
@@ -53,29 +53,29 @@
 
                     <!-- secondo membro lista Today -->
                     <li>
-                        <h2><span class="triangle">&#9660;</span>Today</h2>
-                        <ul>
+                        <h2><span>&blacktriangledown;</span>Today</h2>
+                        <ul class="inner-list">
                             <li>
                                 <span class="circle">&check;</span>
                                 Recruiting blog post
                                 <em class="note blue-bg">Editorial</em>
                             </li>
                         </ul>
-                        <ul>
+                        <ul class="inner-list">
                             <li>
                                 <span class="circle">&check;</span>
                                 Mobile app launch
                                 <em class="note violet-bg">Q1 Goals</em>
                             </li>
                         </ul>
-                        <ul>
+                        <ul class="inner-list">
                             <li>
                                 <span class="circle red-circle">&cross;</span>
                                 Interview John H.
                                 <em class="note green-bg">Recruiting</em>
                             </li>
                         </ul>
-                        <ul>
+                        <ul class="inner-list">
                             <li>
                                 <span class="circle">&check;</span>
                                 Summit update to mobile storefronts
@@ -87,29 +87,29 @@
 
                     <!-- tezo membro lista Upcoming -->
                     <li>
-                        <h2><span class="triangle">&#9660;</span>Upcoming</h2>
-                        <ul>
+                        <h2><span>&blacktriangledown;</span>Upcoming</h2>
+                        <ul class="inner-list">
                             <li>
                                 <span class="circle red-circle">&cross;</span>
                                 Schedule meeting with Alex
 
                             </li>
                         </ul>
-                        <ul>
+                        <ul class="inner-list">
                             <li>
                                 <span class="circle">&check;</span>
                                 Homepage refresh
                                 <em class="note pink-bg">Website</em>
                             </li>
                         </ul>
-                        <ul>
+                        <ul class="inner-list">
                             <li>
                                 <span class="circle">&check;</span>
                                 Onboard new Sales team members
                                 <em class="note olive-bg">Sales</em>
                             </li>
                         </ul>
-                        <ul>
+                        <ul class="inner-list">
                             <li>
                                 <span class="circle">&check;</span>
                                 Review editorial calendar
@@ -122,9 +122,9 @@
 
 
                 </ul>
-            </section>
-        </div>
 
+            </div>
+        </div>
         <!-- fine lista annidata -->
     </main>
     <!-- fine main -->
